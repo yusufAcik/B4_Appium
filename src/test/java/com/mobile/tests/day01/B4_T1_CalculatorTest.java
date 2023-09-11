@@ -3,14 +3,16 @@ package com.mobile.tests.day01;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
+import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class CalculatorTest_1 {
+public class B4_T1_CalculatorTest {
 
     AppiumDriver<MobileElement> driver;
    // AppiumDriver driver; after version 8
@@ -34,6 +36,20 @@ public class CalculatorTest_1 {
 
        // driver=new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver=new AppiumDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"),capabilities);
+        MobileElement digit2=driver.findElement(By.id("com.google.android.calculator:id/digit_2"));
+        MobileElement plusBtn=driver.findElement(By.id("com.google.android.calculator:id/op_add"));
+        MobileElement digit3=driver.findElement(By.id("com.google.android.calculator:id/digit_3"));
+        MobileElement equalBtn=driver.findElement(By.id("com.google.android.calculator:id/eq"));
+        digit2.click();
+        plusBtn.click();
+        digit3.click();
+        equalBtn.click();
+        MobileElement result = driver.findElement(By.id("com.google.android.calculator:id/result_final"));
+        String actualResult=result.getText();
+        Assert.assertEquals("5",actualResult);
+
+        Thread.sleep(3000);
+        driver.closeApp();
 
         Thread.sleep(3000);
         driver.closeApp();
