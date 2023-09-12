@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efdc0889-e7a6-40d8-a73c-57b41e6280eb" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/tests/day02/B4_T2_SetServiceTest.java" afterDir="false" />
+    <list default="true" id="efdc0889-e7a6-40d8-a73c-57b41e6280eb" name="Changes" comment="11 9">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/tests/day02/B4_T3_EnumClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/tests/day02/B4_T4_DriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/tests/day02/B4_T5_OpenAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/utilities/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/utilities/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mobile/utilities/utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobile/tests/day01/CalculatorTest_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobile/tests/day01/B4_T1_CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2VDVmgrV1sjK1hkwjN2aEnwhInc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
@@ -45,11 +52,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.B4_T2_SetServiceTest.test1">
+  <component name="RunManager" selected="JUnit.B4_T4_DriverTest.test2">
     <configuration name="B4_T1_CalculatorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B4_Appium" />
       <extension name="coverage">
@@ -82,8 +88,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="B4_T3_EnumClassTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B4_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mobile.tests.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mobile.tests.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.mobile.tests.day02.B4_T3_EnumClassTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B4_T4_DriverTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B4_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mobile.tests.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mobile.tests.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.mobile.tests.day02.B4_T4_DriverTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B4_T4_DriverTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B4_Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mobile.tests.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mobile.tests.day02" />
+      <option name="MAIN_CLASS_NAME" value="com.mobile.tests.day02.B4_T4_DriverTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.B4_T4_DriverTest.test2" />
+        <item itemvalue="JUnit.B4_T4_DriverTest.test1" />
+        <item itemvalue="JUnit.B4_T3_EnumClassTest.test1" />
         <item itemvalue="JUnit.B4_T2_SetServiceTest.test1" />
         <item itemvalue="JUnit.B4_T1_CalculatorTest.test1" />
       </list>
@@ -105,11 +162,19 @@
       <option name="project" value="LOCAL" />
       <updated>1694382029471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11 9">
+      <created>1694463985142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694463985142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="11 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="11 9" />
   </component>
 </project>
